@@ -3,19 +3,19 @@
 
     float: right;
 	position: fixed;
-	margin-top:0px;
-	background: transparent;
-    
-}
-ul{
-    list-style: none;
+	margin:30px;
+    background: transparent;
     text-align: center;
+    
 }
 
 
 /* 3 dots*/
+.nav-dots{
+    margin-top: 15px;
+   
+}
 .nav-icon{
-    
     display: inline-flex;
     width: 10px;
     height: 10px;
@@ -26,15 +26,28 @@ ul{
     margin-bottom: 15px;
 }
 
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+  }
+
+
 /* navigation icons*/
-.fa-home, .fa-user, .fa-envelope{
+.fa-home, .fa-user, .fa-envelope {
     color: #f62a00;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
    
    
 }
 
+/*Body*/
 
+#body-style{
+    margin:0px;
+
+}
 /*Content 1*/
 
 #content1{
