@@ -3,18 +3,44 @@
     display: flex;
     justify-content: flex-end;
     background-color:#00293c;
-    padding: 15px;
+    padding: 30px;
+}
+
+.nav-dots{
+    position: fixed;
+    
 }
 
 .nav-icon{
+    
     display: inline-flex;
     width: 12px;
     height: 12px;
     border-radius: 25px;
     background-color: #f62a00;
-    margin:3px;
+    margin-left:1px;
+    margin-right: 1px;
+    margin-bottom: 15px;
+}
+
+.icon-bar {
+    width: 65px; /* Set a specific width */
+    margin-top: 20px;
+    position: fixed;
+  
     
 }
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #f62a00; /* red text color */
+    font-size: 36px; /* Increased font-size */
+   
+ 
+  }
 /*Content 1*/
 
 #content1{
@@ -105,7 +131,7 @@
 
 #intro{
     grid-area:"intro";
-    background-color: white;
+   
     /*border-style: solid;
     border-color: black;*/
     top:15vh;
